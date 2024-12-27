@@ -63,8 +63,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         
-        $tarifsname = TarifsName::find()->orderBy('name')->all();
-
+        $tarifsname = TarifsName::find()->all();
 
         return $this->render('index', 
         [

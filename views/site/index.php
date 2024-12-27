@@ -7,7 +7,7 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <?php
-var_dump($model);
+        var_dump($model);
 ?>
 
 </div>
